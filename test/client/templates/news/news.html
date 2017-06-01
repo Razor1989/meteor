@@ -1,0 +1,9 @@
+<template name="news">
+    {{#each news}}
+        {{>news_post}}
+    {{/each}}
+
+    {{#if currentUser}}<a href="./news_write">News schreiben</a>{{/if}}
+
+
+</template>

@@ -1,0 +1,23 @@
+<template name="layout">
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <a type="button" class="btn btn-default navbar-btn" href="{{pathFor 'news'}}">News</a>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="nav pull-right">
+                        <li class="dropdown">{{> loginButtons align="right"}}</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="well">{{>yield}}</div>
+        </div>
+    </div>
+</template>

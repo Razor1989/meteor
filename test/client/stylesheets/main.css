@@ -1,0 +1,14 @@
+.navbar_left {
+
+}
+
+.navbar_right {
+    text-align: right;
+}
+
+.news_delete {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+}
