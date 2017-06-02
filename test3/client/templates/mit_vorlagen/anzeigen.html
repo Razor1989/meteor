@@ -1,0 +1,16 @@
+<template name="BenutzerVorlagenAnzeigen">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Vorname</th>
+            <th>Nachname</th>
+        </tr>
+        </thead>
+        <tbody>
+            {{#each liste}}
+                {{> BenutzerVorlagenAnzeigenList}}
+            {{/each}}
+        </tbody>
+
+    </table>
+</template>
